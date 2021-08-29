@@ -1,0 +1,140 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+$softblue: hsl(231, 69%, 60%);
+$softred: hsl(0, 94%, 66%);
+$verydarkblue: hsl(229, 31%, 21%);
+$grayishblue: hsl(229, 8%, 60%);
+
+
+@media screen and (max-width: 376px) {
+  nav{
+      display: none;
+  }
+  .isactivemenu {
+      display: none;
+      background-color: $verydarkblue;
+      ul{
+          list-style-type: none;
+          display: inline-block;
+        .logodark{
+            margin-top: 47px;
+            margin-left: 33px;
+            
+        }
+        
+          .closeicon {
+            margin-top: 40px;
+            margin-left: 95px;
+            
+        }
+          
+      li {
+          text-align: center;
+          margin-top: 70px;
+          a{  
+              .loginbtnmobile{
+                  color: white;
+                  background-color: $verydarkblue;
+                  border: 1px solid white;
+                  padding:10px 95px;
+              }   
+        text-decoration: none;
+        color: white;
+        
+          }
+      }
+      }
+  }
+
+
+
+
+    .mobilenav {
+      display: block;  //degisecek flex
+      ul{
+        display: flex;
+        list-style-type: none;
+        
+          li{
+
+              img{
+                  margin-left: 33px;
+                  margin-top: 47px;
+              }
+              
+                  
+                  i {
+                      text-decoration: none;
+                    list-style-type: none;
+                    color: black;
+                      margin-top: 47px;
+                      margin-left: 146px;
+                      margin-right: 32px;
+                      display: block;
+                  }
+              
+          }
+      }
+  }
+}
+
+@media screen and (min-width: 376px){
+    .mobilenav{
+        display: none;
+    }
+    .isactivemenu{
+        display: none;
+    }
+nav {
+    ul{
+        display: flex;
+        margin-left: 50px;
+        .logo{
+            margin-left: 170px;
+            margin-right: 510px;
+        }
+        a{
+
+            text-decoration: none;
+            list-style-type: none;
+            display: inline-flex;
+            align-items: center;
+        }
+        li{
+            i{
+                display: block;
+            }
+            margin-top: 57px;
+            margin-left: 45px;
+            font-size: 18px;
+            font-family: 'Rubik', sans-serif;
+            &:active {
+                color: $softred;
+            }
+        }
+        button{
+            margin-top: 57px;
+            margin-left: 50px;
+            width: 110px;
+            height: 40px;
+            border: none;
+            color: white;
+            background-color: $softred;
+            font-size: 18px;
+            font-family: 'Rubik', sans-serif;
+            margin-right: 165px;
+            border-radius: 5%;
+            &:active {
+                background-color: white;
+                color: $softred;
+                border: 2px solid $softred;
+            }
+        }
+    }
+
+}
+}
+
+

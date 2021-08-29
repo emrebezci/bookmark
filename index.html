@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/components/style.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            <a href="">
+                <li><img class="logo" src="/images/logo-bookmark.svg" alt=""></li>
+            </a>
+            <a href="">
+                <li>FEATURES</li>
+            </a>
+            <a href="">
+                <li>PRICING</li>
+            </a>
+            <a href="">
+                <li>CONTACT</li>
+            </a>
+            <a href="">
+                <button>LOGIN</button>
+            </a>
+
+        </ul>
+    </nav>
+
+
+    <div class="mobilenav" id="closemobilenav">
+        <ul>
+            <li><img class="mobilelogo" src="/images/logo-bookmark.svg" alt=""></li>
+            <li>
+                    <i class="fas fa-bars" onclick="hamburgeropen()"></i>
+                </li>
+            <hr>
+        </ul>
+    </div>
+
+    <div class="isactivemenu" id="isactiveid">
+        <ul>
+        <img class="logodark" src="/images/logodark.png" alt="">
+        <img class="closeicon" onclick="hamburgerclose()" src="/images/icon-close.svg" alt="">
+        <li><a href="">FEATURES</a></li>
+        <hr>
+        <li><a href="">PRICING</a></li>
+        <hr>
+        <li><a href="">CONTACT</a></li>
+        <hr>
+        <li><a href=""><button class="loginbtnmobile">LOGIN</button></a></li>
+        </ul>
+    </div>
+
+
+    <script src="/js/main.js"></script>
+</body>
+
+</html>

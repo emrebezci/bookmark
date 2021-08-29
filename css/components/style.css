@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 376px) {
+  nav {
+    display: none;
+  }
+  .isactivemenu {
+    display: none;
+    background-color: #252b46;
+  }
+  .isactivemenu ul {
+    list-style-type: none;
+    display: inline-block;
+  }
+  .isactivemenu ul .logodark {
+    margin-top: 47px;
+    margin-left: 33px;
+  }
+  .isactivemenu ul .closeicon {
+    margin-top: 40px;
+    margin-left: 95px;
+  }
+  .isactivemenu ul li {
+    text-align: center;
+    margin-top: 70px;
+  }
+  .isactivemenu ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .isactivemenu ul li a .loginbtnmobile {
+    color: white;
+    background-color: #252b46;
+    border: 1px solid white;
+    padding: 10px 95px;
+  }
+  .mobilenav {
+    display: block;
+  }
+  .mobilenav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+  }
+  .mobilenav ul li img {
+    margin-left: 33px;
+    margin-top: 47px;
+  }
+  .mobilenav ul li i {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    margin-top: 47px;
+    margin-left: 146px;
+    margin-right: 32px;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .mobilenav {
+    display: none;
+  }
+  .isactivemenu {
+    display: none;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 50px;
+  }
+  nav ul .logo {
+    margin-left: 170px;
+    margin-right: 510px;
+  }
+  nav ul a {
+    text-decoration: none;
+    list-style-type: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  nav ul li {
+    margin-top: 57px;
+    margin-left: 45px;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+  }
+  nav ul li i {
+    display: block;
+  }
+  nav ul li:active {
+    color: #fa5757;
+  }
+  nav ul button {
+    margin-top: 57px;
+    margin-left: 50px;
+    width: 110px;
+    height: 40px;
+    border: none;
+    color: white;
+    background-color: #fa5757;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 165px;
+    border-radius: 5%;
+  }
+  nav ul button:active {
+    background-color: white;
+    color: #fa5757;
+    border: 2px solid #fa5757;
+  }
+}
+/*# sourceMappingURL=style.css.map */
