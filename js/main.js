@@ -1,3 +1,5 @@
+// aktif olarak gösterilen sayfayı gizler. ilk durumu kapalı olan sayfayı ekrana getirir.
+
 function hamburgeropen() {
     
     var open = document.getElementById("isactiveid");
@@ -14,7 +16,7 @@ function hamburgeropen() {
     }
 }
 
-
+// tam hamburgeropen ile aynı mantık
 function hamburgerclose(){
     var closeid = document.getElementById("isactiveid");
     if (closeid.style.display === 'block'){

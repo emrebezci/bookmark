@@ -18,16 +18,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Bookmark</title>
 </head>
 
 <body>
+    <!-- desktop görüntü -->
     <nav>
-
         <ul>
-            <a href="">
-                <li><img class="logo" src="/images/logo-bookmark.svg" alt=""></li>
-            </a>
+
+            <li><img class="logo" src="/images/logo-bookmark.svg" alt=""></li>
+
             <a href="">
                 <li>FEATURES</li>
             </a>
@@ -44,28 +44,77 @@
         </ul>
     </nav>
 
+    <section>
+        <div class="stage1">
+            <h1>A Simple Bookmark Manager</h1>
+            <p>A clean and simple interface to organize your favourite websites. Open a new browser tab and see your
+                sites load instantly. Try it for free</p>
+            <div class="buttonsstage">
+                <button>Get it on Chrome</button>
+                <button class="secondbtn"> Get in on Firefox</button>
+            </div>
+        </div>
+        <div class="stage2">
+            <img src="/images/illustration-hero.svg" alt="">
+        </div>
+    </section>
 
+    <div class="features">
+        <h2>Features</h2>
+        <p>Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between
+            your devices so you can access them on the go.</p>
+<div class="href">
+        <a href="">Simple Bookmarking</a>
+        <a href="">Speedy Searching</a>
+        <a href="">Easy Sharing</a>
+        </div>
+    </div>
+<div class="secondarticle">
+    <div class="stage3">
+        <img src="/images/illustration-features-tab-1.svg" alt="">
+        <div class="stage4">
+            <h1>Bookmark in one click</h1>
+            <p>Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- mobil görüntü ilk  -->
     <div class="mobilenav" id="closemobilenav">
         <ul>
             <li><img class="mobilelogo" src="/images/logo-bookmark.svg" alt=""></li>
             <li>
-                    <i class="fas fa-bars" onclick="hamburgeropen()"></i>
-                </li>
+                <i class="fas fa-bars" onclick="hamburgeropen()"></i>
+            </li>
             <hr>
         </ul>
     </div>
 
+
+
+
+
+
+    <!-- mobil aktif görüntü -->
     <div class="isactivemenu" id="isactiveid">
         <ul>
-        <img class="logodark" src="/images/logodark.png" alt="">
-        <img class="closeicon" onclick="hamburgerclose()" src="/images/icon-close.svg" alt="">
-        <li><a href="">FEATURES</a></li>
-        <hr>
-        <li><a href="">PRICING</a></li>
-        <hr>
-        <li><a href="">CONTACT</a></li>
-        <hr>
-        <li><a href=""><button class="loginbtnmobile">LOGIN</button></a></li>
+            <img class="logodark" src="/images/logodark.png" alt="">
+            <img class="closeicon" onclick="hamburgerclose()" src="/images/icon-close.svg" alt="">
+            <hr style="color: white;">
+            <li><a href="">FEATURES</a></li>
+            <hr style="color: white;">
+            <li><a href="">PRICING</a></li>
+            <hr style="color: white;">
+            <li><a href="">CONTACT</a></li>
+            <hr style="color: white;">
+            <li><a href=""><button class="loginbtnmobile">LOGIN</button></a></li>
         </ul>
     </div>
 

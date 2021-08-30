@@ -7,6 +7,12 @@
   nav {
     display: none;
   }
+  section {
+    display: none;
+  }
+  .features {
+    display: none;
+  }
   .isactivemenu {
     display: none;
     background-color: #252b46;
@@ -25,7 +31,6 @@
   }
   .isactivemenu ul li {
     text-align: center;
-    margin-top: 70px;
   }
   .isactivemenu ul li a {
     text-decoration: none;
@@ -89,6 +94,8 @@
             align-items: center;
   }
   nav ul li {
+    text-decoration: none;
+    list-style-type: none;
     margin-top: 57px;
     margin-left: 45px;
     font-size: 18px;
@@ -117,6 +124,125 @@
     background-color: white;
     color: #fa5757;
     border: 2px solid #fa5757;
+  }
+  section {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section .stage1 {
+    width: 490px;
+    height: 290px;
+    margin-left: 300px;
+    margin-top: 205px;
+  }
+  section .stage1 p {
+    margin-top: 42px;
+    margin-bottom: 42px;
+  }
+  section .stage1 .buttonsstage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  section .stage1 .buttonsstage .secondbtn {
+    margin-left: 17px;
+    background-color: #9194a1;
+    color: #252b46;
+  }
+  section .stage1 .buttonsstage .secondbtn:active {
+    background-color: white;
+  }
+  section .stage1 .buttonsstage button {
+    border-radius: 5%;
+    width: 165px;
+    height: 47px;
+    background-color: #5368df;
+    color: white;
+  }
+  section .stage1 .buttonsstage button:active {
+    background-color: white;
+    color: #5368df;
+  }
+  section .stage2 {
+    margin-top: 135px;
+    margin-left: 128px;
+  }
+  .features {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+    width: 540px;
+    height: 130px;
+  }
+  .features h2 {
+    width: 540px;
+    height: 290px;
+    margin-left: 600px;
+    margin-bottom: 40px;
+    margin-top: 217px;
+    font-family: 'Rubik', sans-serif;
+  }
+  .features p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    width: 540px;
+    height: 76px;
+    margin-left: 600px;
+  }
+  .features .href {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 450px;
+    width: 730px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid black;
+  }
+  .features .href a {
+    margin-bottom: 30px;
+    margin-top: 80px;
+    text-decoration: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 92px;
+    color: #252b46;
+  }
+  .features .href a:hover {
+    border-bottom: 5px solid red;
+    margin-bottom: -3px;
+  }
+  .secondarticle .stage3 {
+    margin-top: 270px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 281px;
+  }
+  .secondarticle .stage4 {
+    margin-left: 128px;
+    margin-top: 73px;
+    width: 490px;
+    height: 290px;
   }
 }
 /*# sourceMappingURL=style.css.map */

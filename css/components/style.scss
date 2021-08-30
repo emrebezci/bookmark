@@ -8,10 +8,18 @@ $verydarkblue: hsl(229, 31%, 21%);
 $grayishblue: hsl(229, 8%, 60%);
 
 
+
+// mobile görüntü
 @media screen and (max-width: 376px) {
   nav{
       display: none;
   }
+  section {
+        display: none;
+    }
+    .features{
+        display: none;
+    }
   .isactivemenu {
       display: none;
       background-color: $verydarkblue;
@@ -32,7 +40,7 @@ $grayishblue: hsl(229, 8%, 60%);
           
       li {
           text-align: center;
-          margin-top: 70px;
+          
           a{  
               .loginbtnmobile{
                   color: white;
@@ -80,6 +88,10 @@ $grayishblue: hsl(229, 8%, 60%);
   }
 }
 
+
+
+
+//  desktop görüntü
 @media screen and (min-width: 376px){
     .mobilenav{
         display: none;
@@ -87,6 +99,7 @@ $grayishblue: hsl(229, 8%, 60%);
     .isactivemenu{
         display: none;
     }
+    
 nav {
     ul{
         display: flex;
@@ -103,6 +116,8 @@ nav {
             align-items: center;
         }
         li{
+            text-decoration: none;
+            list-style-type: none;
             i{
                 display: block;
             }
@@ -133,8 +148,130 @@ nav {
             }
         }
     }
+}
+// section
+section {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    display: flex;
+    .stage1{
+        width: 490px;
+        height: 290px;
+        margin-left: 300px;
+        margin-top: 205px;
+       
+        p{
+           margin-top: 42px;
+           margin-bottom: 42px;
+        }
+        .buttonsstage{
+            display: flex;
+            .secondbtn{
+                    margin-left: 17px;
+                    background-color: $grayishblue;
+                    color: $verydarkblue;
+                    &:active {
+                        background-color: white;
+                    }
+                }
+            button{
+                border-radius: 5%;
+                width: 165px;
+                height: 47px;
+                background-color: $softblue;
+                color: white; 
+                &:active{
+                    background-color: white;
+                    color: $softblue;
+                }
+            }
+        }
+    }
+    .stage2{
+        margin-top: 135px;
+        margin-left: 128px;
+        
+    }
+}
 
+.features {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  width: 540px;
+  height: 130px;
+  h2{
+        width: 540px;
+        height: 290px;
+        margin-left: 600px;
+        margin-bottom: 40px;
+        margin-top: 217px;
+        font-family: 'Rubik', sans-serif;
+
+  }
+  p{
+      font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    width: 540px;
+    height: 76px;
+    margin-left: 600px;
+  }
+  .href{
+      display: flex;
+      margin-left: 450px;
+      width: 730px;
+      text-align: center;
+      justify-content: center;
+      font-family: 'Rubik', sans-serif;
+      font-size: 18px;
+      border-bottom: 1px solid black; 
+      
+      
+      
+      a{
+      margin-bottom: 30px;
+      margin-top: 80px;
+      text-decoration: none;
+      flex-direction: row;
+      margin-left: 92px;
+      color: $verydarkblue;
+      
+           
+      
+        &:hover{
+              border-bottom: 5px solid red;
+              margin-bottom: -3px;
+
+            
+        }
+  }
+  }
 }
-}
+
+
+.secondarticle{
+    .stage3{
+        
+        margin-top: 270px;
+      display: flex;
+
+        margin-left: 300px;
+        margin-top: 281px;
+  }
+  .stage4{
+      margin-left: 128px;
+        margin-top: 73px;
+        width: 490px;
+        height: 290px;
+  }
+  }
+
+
+
+}   //desktop görüntü sonu
+
+
 
 
