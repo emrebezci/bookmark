@@ -13,6 +13,9 @@
   .features {
     display: none;
   }
+  .secondarticle {
+    display: none;
+  }
   .isactivemenu {
     display: none;
     background-color: #252b46;
@@ -230,6 +233,10 @@
     border-bottom: 5px solid red;
     margin-bottom: -3px;
   }
+  .secondarticle {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+  }
   .secondarticle .stage3 {
     margin-top: 270px;
     display: -webkit-box;
@@ -243,6 +250,125 @@
     margin-top: 73px;
     width: 490px;
     height: 290px;
+  }
+  .secondarticle .stage4 p {
+    margin-top: 40px;
+  }
+  .download {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+    width: 540px;
+    height: 130px;
+  }
+  .download h2 {
+    width: 540px;
+    height: 290px;
+    margin-left: 600px;
+    margin-bottom: 40px;
+    margin-top: 260px;
+    font-family: 'Rubik', sans-serif;
+  }
+  .download p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    width: 540px;
+    height: 76px;
+    margin-left: 600px;
+  }
+  .cards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 177px;
+  }
+  .cards .firstcard {
+    width: 283px;
+    height: 386px;
+    border: 5px solid black;
+    text-align: center;
+  }
+  .cards .firstcard .imgchrome {
+    margin-top: 40px;
+  }
+  .cards .firstcard h4 {
+    margin-top: 30px;
+  }
+  .cards .firstcard p {
+    margin-top: 24px;
+  }
+  .cards .firstcard .imgdots {
+    margin-bottom: 20px;
+  }
+  .cards .firstcard .chromebtn {
+    background-color: #5368df;
+    width: 232px;
+    height: 49px;
+    color: white;
+  }
+  .cards .secondcard {
+    text-align: center;
+    margin-left: 38px;
+    margin-top: 44px;
+    width: 283px;
+    height: 386px;
+    border: 1px solid black;
+  }
+  .cards .secondcard .imgfirefox {
+    margin-top: 40px;
+  }
+  .cards .secondcard h4 {
+    margin-top: 30px;
+  }
+  .cards .secondcard p {
+    margin-top: 24px;
+  }
+  .cards .secondcard .imgdots {
+    margin-bottom: 20px;
+  }
+  .cards .secondcard .firefoxbtn {
+    background-color: #5368df;
+    width: 232px;
+    height: 49px;
+    color: white;
+  }
+  .cards .thirdcard {
+    text-align: center;
+    margin-top: 88px;
+    margin-left: 38px;
+    width: 283px;
+    height: 386px;
+    border: 1px solid black;
+  }
+  .cards .thirdcard .imgopera {
+    margin-top: 50px;
+  }
+  .cards .thirdcard h4 {
+    margin-top: 30px;
+  }
+  .cards .thirdcard p {
+    margin-top: 24px;
+  }
+  .cards .thirdcard .imgdots {
+    margin-bottom: 20px;
+  }
+  .cards .thirdcard .operabtn {
+    background-color: #5368df;
+    width: 232px;
+    height: 49px;
+    color: white;
   }
 }
 /*# sourceMappingURL=style.css.map */

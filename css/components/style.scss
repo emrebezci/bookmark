@@ -20,6 +20,9 @@ $grayishblue: hsl(229, 8%, 60%);
     .features{
         display: none;
     }
+    .secondarticle{
+        display: none;
+    }
   .isactivemenu {
       display: none;
       background-color: $verydarkblue;
@@ -252,6 +255,8 @@ section {
 
 
 .secondarticle{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
     .stage3{
         
         margin-top: 270px;
@@ -265,9 +270,123 @@ section {
         margin-top: 73px;
         width: 490px;
         height: 290px;
+        p{
+            margin-top: 40px;
+        }
   }
   }
 
+  .download{
+     display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  width: 540px;
+  height: 130px;
+  h2{
+        width: 540px;
+        height: 290px;
+        margin-left: 600px;
+        margin-bottom: 40px;
+        margin-top: 260px;
+        font-family: 'Rubik', sans-serif;
+
+  }
+  p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    width: 540px;
+    height: 76px;
+    margin-left: 600px;
+  }
+  }
+
+  .cards{
+      display: flex;
+      justify-content: center;
+      margin-top: 177px;
+      
+      
+      .firstcard{
+          width: 283px;
+          height: 386px;
+          border: 5px solid black;
+          text-align: center;
+          .imgchrome{
+              margin-top: 40px;
+          }
+          h4{
+              margin-top: 30px;
+          }
+          p{
+              margin-top: 24px;
+          }
+          .imgdots{
+              margin-bottom: 20px;
+          }
+          .chromebtn{
+              background-color: $softblue;
+              width: 232px;
+              height: 49px;
+              color: white;
+          }
+      }
+      .secondcard{
+          text-align: center;
+          margin-left: 38px;
+          margin-top: 44px;
+          width: 283px;
+          height: 386px;
+          border: 1px solid black;
+          .imgfirefox{
+              margin-top: 40px;
+          }
+          h4{
+              margin-top: 30px;
+          }
+          p{
+              margin-top: 24px;
+          }
+          .imgdots{
+              margin-bottom: 20px;
+          }
+          .firefoxbtn{
+              background-color: $softblue;
+              width: 232px;
+              height: 49px;
+              color: white;
+          }
+      }
+      .thirdcard{
+          text-align: center;
+          margin-top: 88px;
+          margin-left: 38px;
+          width: 283px;
+          height: 386px;
+          border: 1px solid black;
+          .imgopera{
+              margin-top: 50px;
+          }
+          h4{
+              margin-top: 30px;
+          }
+          p{
+              margin-top: 24px;
+          }
+          .imgdots{
+              margin-bottom: 20px;
+          }
+          .operabtn{
+              background-color: $softblue;
+              width: 232px;
+              height: 49px;
+              color: white;
+          }
+
+      }
+      
+  }
 
 
 }   //desktop görüntü sonu
