@@ -23,6 +23,12 @@ $grayishblue: hsl(229, 8%, 60%);
     .secondarticle{
         display: none;
     }
+    .cards{
+        display: none;
+    }
+    .download{
+        display: none;
+    }
   .isactivemenu {
       display: none;
       background-color: $verydarkblue;
@@ -240,7 +246,9 @@ section {
       flex-direction: row;
       margin-left: 92px;
       color: $verydarkblue;
-      
+      &:active{
+          color: $softred;
+      }
            
       
         &:hover{
@@ -309,9 +317,13 @@ section {
       
       
       .firstcard{
+          box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+        border-radius: 3%;
           width: 283px;
           height: 386px;
-          border: 5px solid black;
+          
           text-align: center;
           .imgchrome{
               margin-top: 40px;
@@ -330,15 +342,24 @@ section {
               width: 232px;
               height: 49px;
               color: white;
+              &:active{
+                  color: $softblue;
+                  background-color: white;
+                  border: 1px solid $softblue;
+              }
           }
       }
       .secondcard{
+          box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+        border-radius: 3%;
           text-align: center;
           margin-left: 38px;
           margin-top: 44px;
           width: 283px;
           height: 386px;
-          border: 1px solid black;
+          
           .imgfirefox{
               margin-top: 40px;
           }
@@ -356,15 +377,24 @@ section {
               width: 232px;
               height: 49px;
               color: white;
+              &:active{
+                  color: $softblue;
+                  background-color: white;
+                  border: 1px solid $softblue;
+              }
           }
       }
       .thirdcard{
+          box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+        border-radius: 3%;
           text-align: center;
           margin-top: 88px;
           margin-left: 38px;
           width: 283px;
           height: 386px;
-          border: 1px solid black;
+          
           .imgopera{
               margin-top: 50px;
           }
@@ -382,6 +412,12 @@ section {
               width: 232px;
               height: 49px;
               color: white;
+              
+              &:active{
+                  color: $softblue;
+                  background-color: white;
+                  border: 1px solid $softblue;
+              }
           }
 
       }

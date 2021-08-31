@@ -16,6 +16,12 @@
   .secondarticle {
     display: none;
   }
+  .cards {
+    display: none;
+  }
+  .download {
+    display: none;
+  }
   .isactivemenu {
     display: none;
     background-color: #252b46;
@@ -229,6 +235,9 @@
     margin-left: 92px;
     color: #252b46;
   }
+  .features .href a:active {
+    color: #fa5757;
+  }
   .features .href a:hover {
     border-bottom: 5px solid red;
     margin-bottom: -3px;
@@ -293,9 +302,12 @@
     margin-top: 177px;
   }
   .cards .firstcard {
+    box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    border-radius: 3%;
     width: 283px;
     height: 386px;
-    border: 5px solid black;
     text-align: center;
   }
   .cards .firstcard .imgchrome {
@@ -316,13 +328,21 @@
     height: 49px;
     color: white;
   }
+  .cards .firstcard .chromebtn:active {
+    color: #5368df;
+    background-color: white;
+    border: 1px solid #5368df;
+  }
   .cards .secondcard {
+    box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    border-radius: 3%;
     text-align: center;
     margin-left: 38px;
     margin-top: 44px;
     width: 283px;
     height: 386px;
-    border: 1px solid black;
   }
   .cards .secondcard .imgfirefox {
     margin-top: 40px;
@@ -342,13 +362,21 @@
     height: 49px;
     color: white;
   }
+  .cards .secondcard .firefoxbtn:active {
+    color: #5368df;
+    background-color: white;
+    border: 1px solid #5368df;
+  }
   .cards .thirdcard {
+    box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    border-radius: 3%;
     text-align: center;
     margin-top: 88px;
     margin-left: 38px;
     width: 283px;
     height: 386px;
-    border: 1px solid black;
   }
   .cards .thirdcard .imgopera {
     margin-top: 50px;
@@ -367,6 +395,11 @@
     width: 232px;
     height: 49px;
     color: white;
+  }
+  .cards .thirdcard .operabtn:active {
+    color: #5368df;
+    background-color: white;
+    border: 1px solid #5368df;
   }
 }
 /*# sourceMappingURL=style.css.map */
