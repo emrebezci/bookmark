@@ -401,5 +401,78 @@
     background-color: white;
     border: 1px solid #5368df;
   }
+  .opentop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 100px;
+    width: 540px;
+    height: 130px;
+  }
+  .opentop h2 {
+    width: 540px;
+    height: 290px;
+    margin-left: 600px;
+    margin-bottom: 40px;
+    margin-top: 260px;
+    font-family: 'Rubik', sans-serif;
+  }
+  .opentop p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    width: 540px;
+    height: 76px;
+    margin-left: 600px;
+  }
+  .openit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 200px;
+    width: 550px;
+    margin-left: 560px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    /* Style the button that is used to open and close the collapsible content */
+    /* Style the collapsible content. Note: hidden by default */
+  }
+  .openit .collapsible {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    width: 550px;
+    height: 67px;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: start;
+  }
+  .openit .collapsible .mystyle {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  .openit .collapsible .arrowimg {
+    float: right;
+    margin-right: 25px;
+  }
+  .openit .content {
+    text-align: start;
+    display: none;
+    overflow: hidden;
+  }
 }
 /*# sourceMappingURL=style.css.map */
