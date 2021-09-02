@@ -1,6 +1,8 @@
 * { 
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
+    
 }
 $softblue: hsl(231, 69%, 60%);
 $softred: hsl(0, 94%, 66%);
@@ -462,7 +464,6 @@ section {
     text-align: center;
     justify-content: center;
 
-/* Style the button that is used to open and close the collapsible content */
 .collapsible {
     
     
@@ -477,7 +478,7 @@ section {
   text-align: start;
 
   .arrowimg{
-      
+      transform: rotate(0deg);
       float: right;
       margin-right: 25px;
       
@@ -485,13 +486,90 @@ section {
 }
 
 
-/* Style the collapsible content. Note: hidden by default */
 .content {
     text-align: start;
   display: none;
   overflow: hidden;
-  
 }
+.infobtn{
+    margin-top: 56px;
+    margin-left: 200px;
+    border-radius: 5%;
+    width: 115px;
+    height: 47px;
+    background-color: $softblue;
+    color: white;
+}
+}
+footer {
+    display: flex;
+    .footerdiv{
+    background-color: $softblue;
+    height: 450px;
+    width: 100%;
+    margin-top: 150px;
+h5{
+        
+        color: white;
+        margin-left: 585px;
+        margin-top: 73px;
+    }
+    h2{
+        width: 405px;
+        height: 72px;
+        color: white;
+        margin-left: 519px;
+        margin-top: 56px;
+    }
+    input{
+        margin-left: 500px;
+        text-align: center;
+        width: 300px;
+        height: 47px;
+        border-radius: 5%;
+    }
+    button{
+        margin-top: 57px;
+            margin-left: 50px;
+            width: 127px;
+            height: 47px;
+            border: none;
+            color: white;
+            background-color: $softred;
+            font-size: 18px;
+            font-family: 'Rubik', sans-serif;
+            margin-right: 165px;
+            border-radius: 5%;
+            
+    }
+    .bottom{
+        background-color: $grayishblue;
+        height: 86px;
+        margin-top: 75px;
+
+        .bottomul{
+            display: flex;
+            list-style: none;
+            .facebookicon{
+                margin-left: 500px;
+            }
+            a{
+                margin-top: 40px;
+                color: white;
+                margin-left: 50px;
+                text-decoration-line: none;
+            }
+            .logobottom{
+                margin-top: 43px;
+                margin-left: 167px;
+                margin-right: 14px;
+                display: inline-flex;
+            }
+        }
+        
+    }
+    }
+    
 }
 }   //desktop görüntü sonu
 

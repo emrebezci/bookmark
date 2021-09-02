@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Rubik', sans-serif;
 }
 
 @media screen and (max-width: 376px) {
@@ -447,8 +448,6 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    /* Style the button that is used to open and close the collapsible content */
-    /* Style the collapsible content. Note: hidden by default */
   }
   .openit .collapsible {
     font-family: 'Rubik', sans-serif;
@@ -461,11 +460,9 @@
     outline: none;
     text-align: start;
   }
-  .openit .collapsible .mystyle {
-    -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
-  }
   .openit .collapsible .arrowimg {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
     float: right;
     margin-right: 25px;
   }
@@ -473,6 +470,87 @@
     text-align: start;
     display: none;
     overflow: hidden;
+  }
+  .openit .infobtn {
+    margin-top: 56px;
+    margin-left: 200px;
+    border-radius: 5%;
+    width: 115px;
+    height: 47px;
+    background-color: #5368df;
+    color: white;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .footerdiv {
+    background-color: #5368df;
+    height: 450px;
+    width: 100%;
+    margin-top: 150px;
+  }
+  footer .footerdiv h5 {
+    color: white;
+    margin-left: 585px;
+    margin-top: 73px;
+  }
+  footer .footerdiv h2 {
+    width: 405px;
+    height: 72px;
+    color: white;
+    margin-left: 519px;
+    margin-top: 56px;
+  }
+  footer .footerdiv input {
+    margin-left: 500px;
+    text-align: center;
+    width: 300px;
+    height: 47px;
+    border-radius: 5%;
+  }
+  footer .footerdiv button {
+    margin-top: 57px;
+    margin-left: 50px;
+    width: 127px;
+    height: 47px;
+    border: none;
+    color: white;
+    background-color: #fa5757;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 165px;
+    border-radius: 5%;
+  }
+  footer .footerdiv .bottom {
+    background-color: #9194a1;
+    height: 86px;
+    margin-top: 75px;
+  }
+  footer .footerdiv .bottom .bottomul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+  }
+  footer .footerdiv .bottom .bottomul .facebookicon {
+    margin-left: 500px;
+  }
+  footer .footerdiv .bottom .bottomul a {
+    margin-top: 40px;
+    color: white;
+    margin-left: 50px;
+    -webkit-text-decoration-line: none;
+            text-decoration-line: none;
+  }
+  footer .footerdiv .bottom .bottomul .logobottom {
+    margin-top: 43px;
+    margin-left: 167px;
+    margin-right: 14px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
   }
 }
 /*# sourceMappingURL=style.css.map */
