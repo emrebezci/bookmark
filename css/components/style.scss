@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
-    
 }
+
 $softblue: hsl(231, 69%, 60%);
 $softred: hsl(0, 94%, 66%);
 $verydarkblue: hsl(229, 31%, 21%);
@@ -31,41 +31,126 @@ $grayishblue: hsl(229, 8%, 60%);
     .download{
         display: none;
     }
-  .isactivemenu {
-      display: none;
-      background-color: $verydarkblue;
-      ul{
-          list-style-type: none;
-          display: inline-block;
+    .opentop{
+        display: none;
+    }
+    .openit{
+        display: none;
+    }
+    .footerdiv{
+        display: none;
+    }
+  
+    .isactivemenu{
+        display: block;
+        opacity: 95%;
+        text-align: center;
+        background-color: $verydarkblue;
+        width: 375+33px;
+        
+        ul{
+            list-style-type: none;
+            hr{
+                margin-left: 33px;
+                margin-right: 32px;
+            }
+            .fleximg{
+                display: flex;
         .logodark{
+            margin-left: 33px;
+            margin-top: 42px;
+            
+        }
+        .closeicon{
             margin-top: 47px;
+                      margin-left: 146px;
+                      margin-right: 32px;
+                    color: black;
+                      background-color: $verydarkblue;
+                      
+        }
+            }
+        li{
+            a{
+                            text-decoration: none;
+                            color: white;
+                .loginbtnmobile{
+                    width: 310px;
+                    height: 50px;
+                    border: 2px solid white;
+                    border-radius: 3%;
+                    color: white;
+                    background-color:  $verydarkblue;
+                    margin-top: 24px;
+                    margin-bottom: 24px;
+                }
+            }
+        }
+        }
+    }
+ 
+
+    // mobil layout
+
+    .mobilelayout{
+        width: 375+33px;
+        
+        .heroimg{
+            margin-top: 85px;
             margin-left: 33px;
             
+            width: 375px;
+            height: 210px; 
         }
-        
-          .closeicon {
-            margin-top: 40px;
-            margin-left: 95px;
-            
+        h3{
+            margin-top: 100px;
+            text-align: center;
+            margin-left: 50px;
+            margin-right: 50px;
         }
-          
-      li {
-          text-align: center;
-          
-          a{  
-              .loginbtnmobile{
-                  color: white;
-                  background-color: $verydarkblue;
-                  border: 1px solid white;
-                  padding:10px 95px;
-              }   
-        text-decoration: none;
-        color: white;
-        
-          }
-      }
-      }
-  }
+        p{
+            font-size: 15px;
+           text-align: center;
+           margin-left: 50px;
+           margin-right: 50px; 
+           
+        }
+        .mobilebuttons{
+            text-align: center;
+        }
+        .mobilefeatures{
+            h2{
+                text-align: center;
+                margin-top: 160px;
+                
+            }
+            p{
+                font-size: 15px;
+            }
+            .mobilehref{
+                display: flex;
+                flex-direction: column;
+                font-size: 15px;
+                text-align: center;
+                hr{
+                    margin-left: 33px;
+                    margin-right: 33px;
+                    margin-top: 24px;
+                    margin-bottom: 24px;
+                }
+                a{
+                    text-decoration: none;
+                    color: $verydarkblue;
+                    &:active{
+                        border-bottom: 2px solid red;
+                        
+                    }
+                }
+            }
+
+        }
+     } 
+     // mobilelayout bitiş
 
 
 
@@ -80,7 +165,7 @@ $grayishblue: hsl(229, 8%, 60%);
 
               img{
                   margin-left: 33px;
-                  margin-top: 47px;
+                  margin-top: 42px;
               }
               
                   
@@ -527,6 +612,7 @@ h5{
         width: 300px;
         height: 47px;
         border-radius: 5%;
+        
     }
     button{
         margin-top: 57px;
@@ -540,7 +626,11 @@ h5{
             font-family: 'Rubik', sans-serif;
             margin-right: 165px;
             border-radius: 5%;
-            
+            &:active{
+            color: $softred;
+            border: 1px solid $softred;
+            background-color: white;
+        }
     }
     .bottom{
         background-color: $grayishblue;
@@ -554,10 +644,19 @@ h5{
                 margin-left: 500px;
             }
             a{
+                
                 margin-top: 40px;
                 color: white;
                 margin-left: 50px;
                 text-decoration-line: none;
+                &:active {
+                    color: $softred;
+                }
+                img{
+                    &:active{
+                        background-color: $softred;
+                    }
+                }
             }
             .logobottom{
                 margin-top: 43px;
@@ -575,4 +674,27 @@ h5{
 
 
 
+//  mobile button class
 
+.mobilebtn {
+    
+    width: 150px;
+    height: 50px;
+    background-color: $softblue;
+    border-radius: 5%;
+    color: white;
+    font-size: 12px;
+    
+}
+
+.graymobilebtn {
+    
+    width: 150px;
+    height: 50px;
+    background-color: $grayishblue;
+    border-radius: 5%;
+    color: black;
+    font-size: 12px;
+    margin-left: 14px;
+    
+}
