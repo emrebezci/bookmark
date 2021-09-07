@@ -132,18 +132,15 @@ $grayishblue: hsl(229, 8%, 60%);
                 flex-direction: column;
                 font-size: 15px;
                 text-align: center;
-                hr{
-                    margin-left: 33px;
-                    margin-right: 33px;
-                    margin-top: 24px;
-                    margin-bottom: 24px;
-                }
+
                 a{
                     text-decoration: none;
                     color: $verydarkblue;
-                    &:active{
-                        border-bottom: 2px solid red;
-                        
+                    border-bottom: 1px solid black; 
+                    padding: 24px 0px;
+                    &:hover{
+                    border-bottom: 1px solid red;
+                    
                     }
                 }
             }
