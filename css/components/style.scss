@@ -266,6 +266,119 @@ $grayishblue: hsl(229, 8%, 60%);
         }
     }
 
+    //  mobile collapsible
+.mobileopenit{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+.mobilecollapsible {
+    
+    
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+  background-color: #fff;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: start;
+margin-left: 33px;
+  .mobilearrowimg{
+      transform: rotate(0deg);
+      float: right;
+      margin-right: 50px;
+  }
+}
+
+
+.mobilecontent {
+  text-align: start;
+  margin-left: 33px;
+  margin-top: 10px;
+  display: none;
+  overflow: hidden;
+}
+.mobileinfobtn{
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 5%;
+    width: 115px;
+    height: 47px;
+    background-color: $softblue;
+    color: white;
+}
+}
+.upperfooter{
+    h5{
+        margin-top: 75px;
+        color: white;
+    }
+    h2{
+        color: white;
+    }
+    margin-top: 125px;
+    display: flex;
+    width: 375+33+33px;
+    background-color: $softblue;
+    .inputsection {
+        
+        display: flex;
+        flex-direction: column;
+        input{
+            width: 310px;
+            margin-left: 33px;
+            height: 50px;
+            font-size: 15px;
+            padding-left: 20px;
+        }
+        button{
+            width: 310px;
+            margin-left: 33px;
+            margin-top: 15px;
+            background-color: $softred;
+            margin-bottom: 60px;
+            height: 50px;
+            color: white;
+            font-size: 15px;
+        }
+    }
+}
+
+// mobile footer
+
+.mobilefooter{
+    
+    width: 375+33+33px;
+    display: flex;
+    flex-direction: column;
+    background-color: $verydarkblue;
+    .mobilelogobm{
+        margin-top: 45px;
+        width: 150px;
+        height: 30px;
+        margin-left: 115+33px;
+        
+    }
+    ul{
+        li{
+            margin-top: 37px;
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    .mobilefacebooktwittericon{
+        img{
+            margin-top: 50px;
+            margin-left: 40px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
 
 
 

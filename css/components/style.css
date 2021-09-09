@@ -249,6 +249,122 @@
     text-align: center;
     font-size: 15px;
   }
+  .mobileopenit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mobileopenit .mobilecollapsible {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-align: start;
+    margin-left: 33px;
+  }
+  .mobileopenit .mobilecollapsible .mobilearrowimg {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+    float: right;
+    margin-right: 50px;
+  }
+  .mobileopenit .mobilecontent {
+    text-align: start;
+    margin-left: 33px;
+    margin-top: 10px;
+    display: none;
+    overflow: hidden;
+  }
+  .mobileopenit .mobileinfobtn {
+    margin-top: 50px;
+    margin-left: 130px;
+    border-radius: 5%;
+    width: 115px;
+    height: 47px;
+    background-color: #5368df;
+    color: white;
+  }
+  .upperfooter {
+    margin-top: 125px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 441px;
+    background-color: #5368df;
+  }
+  .upperfooter h5 {
+    margin-top: 75px;
+    color: white;
+  }
+  .upperfooter h2 {
+    color: white;
+  }
+  .upperfooter .inputsection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .upperfooter .inputsection input {
+    width: 310px;
+    margin-left: 33px;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 20px;
+  }
+  .upperfooter .inputsection button {
+    width: 310px;
+    margin-left: 33px;
+    margin-top: 15px;
+    background-color: #fa5757;
+    margin-bottom: 60px;
+    height: 50px;
+    color: white;
+    font-size: 15px;
+  }
+  .mobilefooter {
+    width: 441px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #252b46;
+  }
+  .mobilefooter .mobilelogobm {
+    margin-top: 45px;
+    width: 150px;
+    height: 30px;
+    margin-left: 148px;
+  }
+  .mobilefooter ul li {
+    margin-top: 37px;
+    list-style-type: none;
+  }
+  .mobilefooter ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  .mobilefooter .mobilefacebooktwittericon img {
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+  }
   .mobilenav {
     display: block;
   }

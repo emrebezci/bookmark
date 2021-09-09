@@ -54,6 +54,26 @@ for (i = 0; i < coll.length; i++) {
 
 
 
+// mobile collapsible menu
+
+var mobilecoll = document.getElementsByClassName("mobilecollapsible");
+var mobilei;
+var mobilecloseimg = document.getElementsByClassName("mobilearrowimg");
+
+for (i = 0; i < mobilecoll.length; i++) {
+    mobilecoll[i].addEventListener("click", function () {
+
+        var content = this.nextElementSibling;
+
+        if (content.style.display === "block") {
+
+            content.style.display = "none";
+        } else {
+
+            content.style.display = "block";
+        }
+    });
+}
 
 
 
