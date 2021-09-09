@@ -139,15 +139,132 @@ $grayishblue: hsl(229, 8%, 60%);
                     border-bottom: 1px solid black; 
                     padding: 24px 0px;
                     &:hover{
-                    border-bottom: 1px solid red;
-                    
+                    border-bottom: 3px solid red;
                     }
                 }
             }
-
+        }
+        .secondfeatures{
+            margin-top: 72px;
+            margin-left: 33px;
+            margin-right: 33px;
+            width: 375px;
+            height: 210px; 
+        }
+        .secondh2{
+            margin-top: 92px;
+            text-align: center;
+        }
+        .thirdh2{
+            text-align: center;
+            margin-top: 170px;
         }
      } 
      // mobilelayout bitiş
+
+    //  mobile card başlangıç
+    .mobilecards{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .mobilefirstcard{
+            box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+            -moz-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+            border-radius: 3%;
+            margin-top: 47px;
+            margin-left: 62.5px;
+            width: 283px;
+            height: 386px;
+            .mobileimgdots{
+                margin-top: 45px;
+            }
+            .mobileimgchrome{
+                margin-top: 50px;
+            }
+            .mobileimgfirefox{
+                margin-top: 50px;
+            }
+            .mobilefirefoxbtn{
+                margin-top: 50px;
+            }
+            .mobilechromebtn{
+                margin-top: 27px;
+              background-color: $softblue;
+              width: 232px;
+              height: 49px;
+              color: white;
+              &:active{
+                  color: $softblue;
+                  background-color: white;
+                  border: 1px solid $softblue;
+              }
+          }
+        }
+        .mobilesecondcard{
+            box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+            -moz-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+            border-radius: 3%;
+            margin-top: 47px;
+            margin-left: 62.5px;
+            width: 283px;
+            height: 386px;
+            .mobileimgfirefox{
+                margin-top: 50px;
+            }
+            .mobileimgdots{
+                margin-top: 45px;
+            }
+            .mobilefirefoxbtn{
+                margin-top: 27px;
+              background-color: $softblue;
+              width: 232px;
+              height: 49px;
+              color: white;
+              &:active{
+                  color: $softblue;
+                  background-color: white;
+                  border: 1px solid $softblue;
+              }
+          }
+        }
+        .mobilethirdcard{
+            box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+            -moz-box-shadow: 1px 34px 28px -23px rgba(0,0,0,0.75);
+            border-radius: 3%;
+            margin-top: 47px;
+            margin-left: 62.5px;
+            width: 283px;
+            height: 386px;
+            .mobileimgopera{
+                margin-top: 50px;
+            }
+            .mobileimgdots{
+                margin-top: 45px;
+            }
+            .mobileoperabtn{
+                margin-top: 27px;
+              background-color: $softblue;
+              width: 232px;
+              height: 49px;
+              color: white;
+              &:active{
+                  color: $softblue;
+                  background-color: white;
+                  border: 1px solid $softblue;
+              }
+          }
+        } 
+        .firsth2{
+            margin-top: 150px;
+        }
+        .firstp{
+           text-align: center;
+           font-size: 15px;
+        }
+    }
 
 
 
@@ -175,7 +292,6 @@ $grayishblue: hsl(229, 8%, 60%);
                       margin-right: 32px;
                       display: block;
                   }
-              
           }
       }
   }
@@ -667,6 +783,7 @@ h5{
     }
     
 }
+
 }   //desktop görüntü sonu
 
 

@@ -125,7 +125,129 @@
     padding: 24px 0px;
   }
   .mobilelayout .mobilefeatures .mobilehref a:hover {
-    border-bottom: 1px solid red;
+    border-bottom: 3px solid red;
+  }
+  .mobilelayout .secondfeatures {
+    margin-top: 72px;
+    margin-left: 33px;
+    margin-right: 33px;
+    width: 375px;
+    height: 210px;
+  }
+  .mobilelayout .secondh2 {
+    margin-top: 92px;
+    text-align: center;
+  }
+  .mobilelayout .thirdh2 {
+    text-align: center;
+    margin-top: 170px;
+  }
+  .mobilecards {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .mobilecards .mobilefirstcard {
+    box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    border-radius: 3%;
+    margin-top: 47px;
+    margin-left: 62.5px;
+    width: 283px;
+    height: 386px;
+  }
+  .mobilecards .mobilefirstcard .mobileimgdots {
+    margin-top: 45px;
+  }
+  .mobilecards .mobilefirstcard .mobileimgchrome {
+    margin-top: 50px;
+  }
+  .mobilecards .mobilefirstcard .mobileimgfirefox {
+    margin-top: 50px;
+  }
+  .mobilecards .mobilefirstcard .mobilefirefoxbtn {
+    margin-top: 50px;
+  }
+  .mobilecards .mobilefirstcard .mobilechromebtn {
+    margin-top: 27px;
+    background-color: #5368df;
+    width: 232px;
+    height: 49px;
+    color: white;
+  }
+  .mobilecards .mobilefirstcard .mobilechromebtn:active {
+    color: #5368df;
+    background-color: white;
+    border: 1px solid #5368df;
+  }
+  .mobilecards .mobilesecondcard {
+    box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    border-radius: 3%;
+    margin-top: 47px;
+    margin-left: 62.5px;
+    width: 283px;
+    height: 386px;
+  }
+  .mobilecards .mobilesecondcard .mobileimgfirefox {
+    margin-top: 50px;
+  }
+  .mobilecards .mobilesecondcard .mobileimgdots {
+    margin-top: 45px;
+  }
+  .mobilecards .mobilesecondcard .mobilefirefoxbtn {
+    margin-top: 27px;
+    background-color: #5368df;
+    width: 232px;
+    height: 49px;
+    color: white;
+  }
+  .mobilecards .mobilesecondcard .mobilefirefoxbtn:active {
+    color: #5368df;
+    background-color: white;
+    border: 1px solid #5368df;
+  }
+  .mobilecards .mobilethirdcard {
+    box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 34px 28px -23px rgba(0, 0, 0, 0.75);
+    border-radius: 3%;
+    margin-top: 47px;
+    margin-left: 62.5px;
+    width: 283px;
+    height: 386px;
+  }
+  .mobilecards .mobilethirdcard .mobileimgopera {
+    margin-top: 50px;
+  }
+  .mobilecards .mobilethirdcard .mobileimgdots {
+    margin-top: 45px;
+  }
+  .mobilecards .mobilethirdcard .mobileoperabtn {
+    margin-top: 27px;
+    background-color: #5368df;
+    width: 232px;
+    height: 49px;
+    color: white;
+  }
+  .mobilecards .mobilethirdcard .mobileoperabtn:active {
+    color: #5368df;
+    background-color: white;
+    border: 1px solid #5368df;
+  }
+  .mobilecards .firsth2 {
+    margin-top: 150px;
+  }
+  .mobilecards .firstp {
+    text-align: center;
+    font-size: 15px;
   }
   .mobilenav {
     display: block;
