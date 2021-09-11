@@ -5,31 +5,7 @@
 }
 
 @media screen and (max-width: 376px) {
-  nav {
-    display: none;
-  }
-  section {
-    display: none;
-  }
-  .features {
-    display: none;
-  }
-  .secondarticle {
-    display: none;
-  }
-  .cards {
-    display: none;
-  }
-  .download {
-    display: none;
-  }
-  .opentop {
-    display: none;
-  }
-  .openit {
-    display: none;
-  }
-  .footerdiv {
+  .desktopcontainer {
     display: none;
   }
   .isactivemenu {
@@ -389,11 +365,8 @@
   }
 }
 
-@media screen and (min-width: 376px) {
-  .mobilenav {
-    display: none;
-  }
-  .isactivemenu {
+@media only screen and (min-width: 376px) {
+  .mobilecontainer {
     display: none;
   }
   nav ul {

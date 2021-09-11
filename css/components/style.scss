@@ -13,33 +13,9 @@ $grayishblue: hsl(229, 8%, 60%);
 
 // mobile görüntü
 @media screen and (max-width: 376px) {
-  nav{
+  .desktopcontainer{
       display: none;
   }
-  section {
-        display: none;
-    }
-    .features{
-        display: none;
-    }
-    .secondarticle{
-        display: none;
-    }
-    .cards{
-        display: none;
-    }
-    .download{
-        display: none;
-    }
-    .opentop{
-        display: none;
-    }
-    .openit{
-        display: none;
-    }
-    .footerdiv{
-        display: none;
-    }
   
     .isactivemenu{
         display: block;
@@ -414,14 +390,10 @@ margin-left: 33px;
 
 
 //  desktop görüntü
-@media screen and (min-width: 376px){
-    .mobilenav{
+@media only screen and (min-width: 376px){
+    .mobilecontainer{
         display: none;
     }
-    .isactivemenu{
-        display: none;
-    }
-    
 nav {
     ul{
         display: flex;
